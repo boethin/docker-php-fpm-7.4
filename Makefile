@@ -1,6 +1,6 @@
 DIR = .
 FILE = Dockerfile
-IMAGE =  boethin/docker-php-fpm-7.4
+IMAGE = boethin/php-fpm-7.4
 TAG = latest
 
 .PHONY: build rebuild test tag pull login push enter
